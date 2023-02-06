@@ -3,7 +3,7 @@ import DefaultHead from 'components/DefaultHead';
 
 function Document() {
     return (
-        <Html>
+        <Html className={'theme-1'}>
             <Head>
                 <DefaultHead />
             </Head>

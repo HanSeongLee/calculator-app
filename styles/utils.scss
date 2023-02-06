@@ -1,3 +1,47 @@
 @import '~include-media/dist/include-media';
 
 $breakpoints: (mobile: 568px, tablet: 767px, desktop: 992px);
+
+$white-color: #FFFFFF;
+
+.theme-1 {
+  --theme-primary-color: #D03F2F;
+  --theme-secondary-color: #647198;
+  --theme-default-color: #EAE3DC;
+  --theme-natural-color: #434A59;
+  --theme-shadow-primary-color: #93261A;
+  --theme-shadow-secondary-color: #414E73;
+  --theme-shadow-default-color: #B3A497;
+  --theme-box-color: #242D44;
+  --theme-text-box-color: #181F33;
+  --theme-highlight-color: $white-color;
+  --theme-background-color: #3A4663;
+}
+
+.theme-2 {
+  --theme-primary-color: #C85402;
+  --theme-secondary-color: #378187;
+  --theme-default-color: #E5E4E1;
+  --theme-natural-color: #36362C;
+  --theme-shadow-primary-color: #873901;
+  --theme-shadow-secondary-color: #1B6066;
+  --theme-shadow-default-color: #A79E91;
+  --theme-box-color: #D2CDCD;
+  --theme-text-box-color: #EEEEEE;
+  --theme-highlight-color: $white-color;
+  --theme-background-color: #E6E6E6;
+}
+
+.theme-3 {
+  --theme-primary-color: #00DED0;
+  --theme-secondary-color: #56077C;
+  --theme-default-color: #331C4D;
+  --theme-natural-color: #FFE53D;
+  --theme-shadow-primary-color: #6CF9F1;
+  --theme-shadow-secondary-color: #BE15F4;
+  --theme-shadow-default-color: #881C9E;
+  --theme-box-color: #1E0936;
+  --theme-text-box-color: --theme-box-color;
+  --theme-highlight-color: #1A2327;
+  --theme-background-color: #17062A;
+}
