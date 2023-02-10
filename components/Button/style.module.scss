@@ -1,0 +1,35 @@
+@import "styles/utils";
+
+.button {
+  min-width: 60px;
+  min-height: 64px;
+  font-size: 32px;
+  line-height: 29px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &.primary {
+    font-size: 20px;
+    line-height: 18px;
+    color: var(--theme-highlight-color);
+    background: var(--theme-primary-color);
+    box-shadow: inset 0px -4px 0px var(--theme-shadow-primary-color);
+    text-transform: uppercase;
+  }
+
+  &.secondary {
+    font-size: 20px;
+    line-height: 18px;
+    color: var(--theme-white-color);
+    background: var(--theme-secondary-color);
+    box-shadow: inset 0px -4px 0px var(--theme-shadow-secondary-color);
+    text-transform: uppercase;
+  }
+
+  &.default {
+    color: var(--theme-natural-color);
+    background: var(--theme-default-color);
+    box-shadow: inset 0px -4px 0px var(--theme-shadow-default-color);
+  }
+}
