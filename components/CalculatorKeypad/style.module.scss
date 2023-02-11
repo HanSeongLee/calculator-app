@@ -1,0 +1,13 @@
+
+.calculatorKeypad {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  background: var(--theme-box-color);
+  border-radius: 10px;
+  padding: 24px;
+
+  > * {
+    flex: 1;
+  }
+}
