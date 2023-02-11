@@ -9,22 +9,37 @@
   border-radius: 5px;
   cursor: pointer;
 
-  &.primary {
+  @include media(">tablet") {
+    min-width: 101px;
+    min-height: 64px;
+    font-size: 40px;
+    line-height: 37px;
+    letter-spacing: -0.67px;
+    border-radius: 10px;
+  }
+
+  &.primary, &.secondary {
     font-size: 20px;
     line-height: 18px;
+    text-transform: uppercase;
+
+    @include media(">tablet") {
+      font-size: 28px;
+      line-height: 26px;
+      letter-spacing: -0.47px;
+    }
+  }
+
+  &.primary {
     color: var(--theme-highlight-color);
     background: var(--theme-primary-color);
     box-shadow: inset 0px -4px 0px var(--theme-shadow-primary-color);
-    text-transform: uppercase;
   }
 
   &.secondary {
-    font-size: 20px;
-    line-height: 18px;
     color: var(--theme-white-color);
     background: var(--theme-secondary-color);
     box-shadow: inset 0px -4px 0px var(--theme-shadow-secondary-color);
-    text-transform: uppercase;
   }
 
   &.default {
