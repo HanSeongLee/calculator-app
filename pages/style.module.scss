@@ -1,5 +1,12 @@
+@import "styles/utils";
 
 .main {
+  min-height: 667px;
+
+  @include media(">tablet") {
+    min-height: 900px;
+  }
+
   .calculatorContainer {
     display: flex;
     flex-direction: column;
